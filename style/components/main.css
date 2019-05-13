@@ -1,0 +1,192 @@
+.home_container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #F8F9F9;
+    height: 100vh;
+}
+
+.home_container_left_sidebar {
+	margin-top: 40px;
+    width: 210px;
+}
+
+.home_left_box_container ul li {
+	margin: 0;
+    padding: 0;
+}
+.home_left_box_container ul {
+	margin-bottom: 15px; 
+}
+
+.home_left_box_container a {
+	align-items: center;
+    background-color: transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    display: flex;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+    min-height: 20px;
+    overflow: hidden;
+    padding: 6px 8px 6px 15px;
+    color: #365364;
+}
+.home_left_box_container ul li span {
+	margin-left: 5%;
+}
+.home_left_box_container a:hover {
+	background-color: lightgrey;
+}
+.left_box_container_team {
+	text-transform: uppercase;
+	margin-left: 15px;
+	color: #aaaaaa;
+}
+.team_button {
+	border: none;
+	align-items: center;
+    background-color: transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    display: flex;
+    font-weight: 700;
+    min-height: 20px;
+    overflow: hidden;
+    padding: 6px 8px 6px 15px;
+    width: 100%;
+    color: #aaaaaa;
+}
+.team_button i {
+	margin-right: 5px;
+}
+.team_button:hover {
+	cursor: pointer;
+	background-color: lightgrey;
+}
+
+.team_options ul{
+	display: flex;
+	flex-direction: column;
+}
+.team_options ul li{
+	margin-top: 10px;
+	padding-left: 25px;
+}
+.team_options ul li span{
+	font-size: 12px;
+	color: rgba(9,45,66,.66);
+    font-weight: 600;
+    margin-left: 5%;
+}
+/*******************************boards**********************************************/
+.all_boards{
+    padding-left: 40px;
+   	width: 860px;/*Change to 80% after test*/
+    margin-top: 40px;
+}
+.boards_header_section{
+	margin-bottom: 15px ; 
+}
+.board_header h3 {
+	display: inline-block;
+    line-height: 24px;
+    margin: 4px 0 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+.board_section_list{
+	display: flex;
+	flex-wrap: wrap;
+}
+.board_section_list li {
+	margin-right: 2%;
+	margin-bottom: 2%;
+	height: 100px; /*Delete this later*/
+	/*max-width: 25%;*/
+}
+.board_section_list li{
+	border-radius: 5px;
+	padding: 3px;/*This property fixes problem with border-radius*/
+}
+.board_section_list__element_text{
+	padding: 10px;
+	color: white;
+	font-weight: 700;
+	border: none;
+}
+
+.board_section_list li:hover  {/*add this symbol:~, to change background later. You should add  div to be image*/
+	filter: brightness(0.9);
+	color: #fff;
+}
+
+.board_section_list .board_creator {
+	background-color: #E5E9EB;
+	display: flex;/*Attention! not a proper value!*/
+	align-items: center;
+	text-align: center;
+	padding: 0;
+}
+.board_section_list .board_creator:hover {
+	cursor: pointer;
+}
+.board_section_list__board_creator__text {
+	width: 100%;
+	padding: 10px;
+	color: #6b808c;
+	font-weight: 700;
+	border: none;
+}
+.board_section_list__element_text{
+	padding: 10px;
+	font-weight: 700;
+	border: none;
+	width: 100%;
+	height: 100%;
+}
+.board_section_list__board_creator__text:hover{
+	color: #3f5866;
+}
+
+@media(max-width: 767px){
+	.board_section_list .col2 {
+		width: 48%;
+	}	
+
+}
+
+@media(max-width: 650px){
+	.board_section_list .col2 {
+		width: 48%;
+	}	
+	.home_container_left_sidebar {
+		display: none;
+	}
+
+	.all_boards{
+	    padding: 5px;
+	    width: 90%;
+	    margin: 0 auto;
+	    margin-top: 40px;
+	}
+}
+
+@media(max-width: 449px){
+	.board_section_list .col2 {
+		width: 100%;
+	}	
+	.home_container_left_sidebar {
+		display: none;
+	}
+
+	.all_boards{
+	    padding: 5px;
+	    width: 90%;
+	    margin: 0 auto;
+	    margin-top: 40px;
+	}
+}
+	

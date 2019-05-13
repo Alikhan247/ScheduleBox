@@ -1,0 +1,169 @@
+body{
+	overflow: auto;
+}
+.welcome_page {
+	background-color: #026AA7;
+	width: 100%;    
+	line-height: 1.5;
+}
+
+.welcome_page__inner {
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	color: #fff;
+    margin-right: auto;
+    margin-left: auto;
+	padding-top:  7rem;
+	padding-bottom: 5rem;
+}
+.welcome_page__inner___words {
+    margin-right: 10%;
+    align-self: center;
+}
+
+.welcome_page__inner___words h1 {
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	line-height: 1.2;
+}
+.welcome_page__inner___words p {
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 16px;
+}
+.welcome_page__inner___words a {
+	font-size: 25px;
+	color: #fff;
+	padding: 10px 10px 10px 15px;
+	background-color: #61BD4F;
+	border-radius: 5px;
+}
+.welcome_page__inner__image img{
+	max-width: 340px;
+	border-radius: 15px;
+} 
+.white_background {
+	background-color: #fff;
+	width: 100%;
+}
+.white_background .welcome_page__inner{
+	color: #172b4d;
+}
+.white_background .welcome_page__inner a{
+	background-color:#567486;
+}
+
+.white_background .welcome_page__inner{
+	padding-top:  100px;
+}
+
+.white_background .welcome_page__inner.iphone {
+	padding-top:  0;
+}
+
+.white_background .welcome_page__inner .welcome_page__inner__image.iphone img {
+	max-width: 360px;
+}
+
+
+@media(max-width: 767px){
+
+	.welcome_page {
+		line-height: 1.2;
+	}
+
+	.welcome_page__inner {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		color: #fff;
+		align-items: center;
+	}
+	.welcome_page__inner___words {
+	    margin-right: 0;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    text-align: center;
+	
+	}
+
+	.welcome_page__inner___words h1 {
+		font-size: 40px;
+		font-weight: 700;
+		margin-bottom: 10px;
+		line-height: 1.2;
+	}
+	.welcome_page__inner___words p {
+		font-size: 20px;
+		line-height: 1.5;
+		margin-bottom: 16px;
+	}
+	.welcome_page__inner___words a {
+		font-size: 25px;
+		color: #fff;
+		padding: 10px 10px 10px 15px;
+		background-color: #61BD4F;
+		border-radius: 5px;
+		margin-bottom: 15px;
+	}
+	.welcome_page__inner__image img{
+		width: 450px;
+		border-radius: 15px;
+	} 
+	.white_background .welcome_page__inner .welcome_page__inner__image.iphone img {
+		max-width: 360px;
+	}
+}
+
+@media(max-width: 449px){
+
+	.welcome_page {
+		line-height: 1.2;
+	}
+
+	.welcome_page__inner {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		color: #fff;
+		align-items: center;
+	}
+	.welcome_page__inner___words {
+	    margin: 0;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    padding: 10px;
+	    text-align: center;
+	}
+
+	.welcome_page__inner___words h1 {
+		font-size: 30px;
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+	.welcome_page__inner___words p {
+		font-size: 20px;
+		line-height: 1;
+		margin-bottom: 16px;
+	}
+	.welcome_page__inner___words a {
+		font-size: 25px;
+		color: #fff;
+		padding: 10px 10px 10px 15px;
+		background-color: #61BD4F;
+		border-radius: 5px;
+		margin-bottom: 15px;
+	}
+	.welcome_page__inner__image img{
+		max-width: 300px;
+		border-radius: 15px;
+	} 
+	.white_background .welcome_page__inner .welcome_page__inner__image.iphone img {
+		max-width: 250px;
+	}
+}
+

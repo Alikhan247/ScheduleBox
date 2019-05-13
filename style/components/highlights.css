@@ -1,0 +1,51 @@
+.all_boards_remainders {
+	padding-left: 40px;
+   	width: 860px;/*Change to 80% after test*/
+    margin-top: 40px;
+}
+
+.all_remainders{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.remainder {
+	width: 75%;
+	margin: 0 auto;
+	background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(9,30,66,.25), 0 0 0 1px rgba(9,30,66,.08);
+	border-radius: 5px; 
+	margin-bottom: 2%;
+}
+
+.remainder__image img {
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+
+.remainder__textBlock {
+	padding: 5%;
+	text-align: center;
+	color: #172b4d;
+}
+.remainder__textBlock h1 {
+	font-size: 25px;
+	font-weight: 500;
+}
+.remainder__textBlock p {
+	font-size: 15px;
+	font-weight: 500;
+	margin-top: 2%;
+}
+
+.newRemainder {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 700;
+	border-bottom: 1px solid grey;
+	padding:5px;
+}
